@@ -16,12 +16,12 @@ The steps of this project are the following:
 <img src="./Project_screenshots/3.PNG" alt="Docker images" width="500" height="100">
 
 * 4- $kubectl apply -f deployment.yaml ==> We create our deployment with kubernetes.
-<img src="./Project_screenshots/4.PNG" alt="Build Docker image" width="400" height="100">
+<img src="./Project_screenshots/4.PNG" alt="Build Docker image" width="500" height="80">
 
 * 5- $minikube dashboard ==> Check the status of the components of our deployment on the kubernetes dashboard.
 <img src="./Project_screenshots/5.PNG" alt="Deployment status (1)" width="500" height="160">
 <br>
-<img src="./Project_screenshots/6.PNG" alt="Deployment status (2)" width="500" height="200">
+<img src="./Project_screenshots/6.PNG" alt="Deployment status (2)" width="500" height="150">
 <br>
 <img src="./Project_screenshots/7.PNG" alt="Deployment status (3)" width="500" height="200">
 
