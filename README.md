@@ -11,7 +11,7 @@ The steps of this project are the following:
 
 * 2- We create the dockerfile API to build the docker image.
 * 3- Run $docker build -t wacef-flask-api . ==> the docker image is generated (check with $docker images)
-<img src="Project_screenshots/1.png" alt="Build Docker image" width="500" height="100">
+<img src="./Project_screenshots/1.png" alt="Build Docker image" width="500" height="100">
 
 <img src="Project_screenshots/3.png" alt="Docker images" width="500" height="100">
 
