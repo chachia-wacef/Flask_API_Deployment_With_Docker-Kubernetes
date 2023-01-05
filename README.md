@@ -7,7 +7,7 @@ The goal of this deployment is to create 3 instances of our application and to u
 The steps of this project are the following: 
 
 * 1- Develop an API with Flask python and test it locally.
-<img src="./Project_screenshots/0.png" alt="Flask API" width="500" height="100">
+<img src="./Project_screenshots/0.PNG" alt="Flask API" width="500" height="100">
 
 * 2- We create the dockerfile API to build the docker image.
 * 3- Run $docker build -t wacef-flask-api . ==> the docker image is generated (check with $docker images)
