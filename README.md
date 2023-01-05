@@ -11,19 +11,19 @@ The steps of this project are the following:
 
 * 2- We create the dockerfile API to build the docker image.
 * 3- Run $docker build -t wacef-flask-api . ==> the docker image is generated (check with $docker images)
-<img src="./Project_screenshots/1.png" alt="Build Docker image" width="500" height="100">
+<img src="./Project_screenshots/1.PNG" alt="Build Docker image" width="500" height="100">
 
-<img src="Project_screenshots/3.png" alt="Docker images" width="500" height="100">
+<img src="./Project_screenshots/3.PNG" alt="Docker images" width="500" height="100">
 
 * 4- $kubectl apply -f deployment.yaml ==> We create our deployment with kubernetes.
-<img src="Project_screenshots/4.png" alt="Build Docker image" width="500" height="100">
+<img src="./Project_screenshots/4.PNG" alt="Build Docker image" width="500" height="100">
 
 * 5- $minikube dashboard ==> Check the status of the components of our deployment on the kubernetes dashboard.
-<img src="Project_screenshots/5.png" alt="Deployment status (1)" width="500" height="100">
+<img src="./Project_screenshots/5.PNG" alt="Deployment status (1)" width="500" height="100">
 <br>
-<img src="Project_screenshots/6.png" alt="Deployment status (2)" width="500" height="100">
+<img src="./Project_screenshots/6.PNG" alt="Deployment status (2)" width="500" height="100">
 <br>
-<img src="Project_screenshots/7.png" alt="Deployment status (3)" width="500" height="100">
+<img src="./Project_screenshots/7.PNG" alt="Deployment status (3)" width="500" height="100">
 
 * 6- $minikube service flask-wacef-service ==> Access our deployed api and make sure it works.
-<img src="Project_screenshots/8.png" alt="Deployment service start" width="500" height="100">
+<img src="./Project_screenshots/8.PNG" alt="Deployment service start" width="500" height="100">
